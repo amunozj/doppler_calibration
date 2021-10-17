@@ -328,6 +328,8 @@ def map_prep(file, instrument, center_rotate=False, crop=False, chunks=32, trans
     
         sun_map = Map(sun_map.data[sz_x_diff:sz_x_diff+new_shape, sz_y_diff:sz_y_diff+new_shape].copy(), sun_map.meta)   
 
+
+    hdul.close()
     return sun_map
 
 

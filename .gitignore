@@ -130,3 +130,11 @@ dmypy.json
 
 # VSCode
 .vscode/
+
+# Data
+*.tar
+*.fits
+*.gz
+
+# Images
+*.png
